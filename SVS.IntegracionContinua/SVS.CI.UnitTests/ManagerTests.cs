@@ -7,7 +7,7 @@ namespace SVS.CI.UnitTests
     public class ManagerTests
     {
         [Test]
-        public void RunMethodTest()
+        public void RunCoveredMethodTest()
         {
             var manager = new Manager();
 
