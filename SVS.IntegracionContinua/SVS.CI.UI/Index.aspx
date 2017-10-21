@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Integración Continua
+            Integración Continua (°_°)
         </div>
     </form>
 </body>
