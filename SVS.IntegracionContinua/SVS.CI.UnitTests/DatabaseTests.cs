@@ -13,7 +13,7 @@ namespace SVS.CI.UnitTests
 
             var result = Database.TestConnection(key);
 
-            Assert.IsTrue(result);
+            Assert.IsFalse(result);
         }
     }
 }
