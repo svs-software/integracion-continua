@@ -10,12 +10,17 @@ namespace SVS.CI.Business
     {
         public void Covered()
         {
-            Console.WriteLine("Running covered method")
+            Console.WriteLine("Running covered method");
         }
 
         public void Uncovered()
         {
             Console.WriteLine("Running uncovered method");
+        }
+
+        public void Nothing()
+        {
+            Console.WriteLine("Nothing...");
         }
     }
 }
