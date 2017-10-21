@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Unit Tests", "00 - Unit Tests", "{9FDE8AB3-2E5C-4F66-BD4A-20DCBFE244E6}"
 EndProject
@@ -18,6 +18,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVS.CI.Data", "SVS.CI.Data\SVS.CI.Data.csproj", "{24032DCD-43C2-438B-83F8-6D74E27D0D52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVS.CI.UI", "SVS.CI.UI\SVS.CI.UI.csproj", "{60605AF7-F7A3-4AD8-A5C7-5BC6AA9EA846}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D7C9EFB2-A80E-431D-BC18-A45D17675228}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,8 +52,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BFD6657E-89C1-4835-B98F-F016F6B8E0CC} = {9FDE8AB3-2E5C-4F66-BD4A-20DCBFE244E6}
+		{60605AF7-F7A3-4AD8-A5C7-5BC6AA9EA846} = {E7919FAB-073D-423F-AF51-F8F4682EECD2}
 		{23A76BB0-682B-423B-861D-A09EBB1EEBD6} = {13E01693-4969-432E-8253-A6E259D57A0C}
 		{24032DCD-43C2-438B-83F8-6D74E27D0D52} = {DD77FAF5-4C32-4993-827B-3EF1A04DA1A6}
-		{60605AF7-F7A3-4AD8-A5C7-5BC6AA9EA846} = {E7919FAB-073D-423F-AF51-F8F4682EECD2}
 	EndGlobalSection
 EndGlobal

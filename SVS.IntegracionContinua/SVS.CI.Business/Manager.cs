@@ -17,5 +17,10 @@ namespace SVS.CI.Business
         {
             Console.WriteLine("Running uncovered method");
         }
+
+        public void Nothing()
+        {
+            Console.WriteLine("Nothing...");
+        }
     }
 }
