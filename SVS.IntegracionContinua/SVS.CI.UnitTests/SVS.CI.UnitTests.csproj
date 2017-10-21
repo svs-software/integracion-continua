@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseTests.cs" />
     <Compile Include="ManagerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,6 +54,10 @@
     <ProjectReference Include="..\SVS.CI.Business\SVS.CI.Business.csproj">
       <Project>{23a76bb0-682b-423b-861d-a09ebb1eebd6}</Project>
       <Name>SVS.CI.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SVS.CI.Data\SVS.CI.Data.csproj">
+      <Project>{24032dcd-43c2-438b-83f8-6d74e27d0d52}</Project>
+      <Name>SVS.CI.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
