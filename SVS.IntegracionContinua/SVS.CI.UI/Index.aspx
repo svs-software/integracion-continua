@@ -11,6 +11,9 @@
         <div>
             Integración Continua
         </div>
+        <div>
+            Mensaje
+        </div>
     </form>
 </body>
 </html>
