@@ -16,10 +16,21 @@ namespace SVS.TDD.UnitTests
         public void IdPersonaValido_ValidarId_RetornaTrue()
         {
             var persona = new Persona();
+            //persona.Id = "234";
             
+            var validacionId = ManagerPersona.ValidarId(persona.Id);
+
+            Assert.IsFalse(validacionId);
+        }
+        [Test]
+        public void IdPersonaValido_ValidarId_Retornaflase()
+        {
+            var persona = new Persona();
+            persona.Id = "23";
             var validacionId = ManagerPersona.ValidarId(persona.Id);
 
             Assert.IsTrue(validacionId);
         }
     }
 }
+
