@@ -1,6 +1,7 @@
 ﻿using SVS.TDD.Negocio.Entidades;
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace SVS.TDD.Negocio
 {
@@ -13,6 +14,31 @@ namespace SVS.TDD.Negocio
                 return false;
             }
 
+            return true;
+        }
+
+        public static bool ValidarDni(string dni)
+        {
+            if (string.IsNullOrEmpty(dni))
+            {
+                return false;
+            }
+
+            if(dni.Length != 8)
+            {
+                return false;
+            }
+
+            var expresion = new Regex(@"[a-z]+");
+
+            if (!expresion.IsMatch(dni)) {
+                return true;
+            }
+
+            if (string.IsNullOrWhiteSpace(dni.Trim()) ){
+                return false;
+            }
+             
             return true;
         }
 
