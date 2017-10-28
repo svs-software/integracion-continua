@@ -51,5 +51,14 @@ namespace SVS.TDD.UnitTests
 
             Assert.IsFalse(validacionId);
         }
+
+        [Test]
+        [TestCase("iopujyh1")]
+        public void Caso_3_Dni(string dni)
+        {
+            var validacionId = ManagerPersona.ValidarDni(dni);
+
+            Assert.IsFalse(validacionId);
+        }
     }
 }

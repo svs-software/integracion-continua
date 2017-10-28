@@ -29,10 +29,10 @@ namespace SVS.TDD.Negocio
                 return false;
             }
 
-            var expresion = new Regex(@"[a-z]+");
+            var expresion = new Regex(@"[a-z]*[A-Z]");
 
             if (!expresion.IsMatch(dni)) {
-                return true;
+                return false;
             }
 
             if (string.IsNullOrWhiteSpace(dni.Trim()) ){
