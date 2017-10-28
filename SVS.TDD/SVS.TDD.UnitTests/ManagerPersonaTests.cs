@@ -13,7 +13,7 @@ namespace SVS.TDD.UnitTests
     public class ManagerPersonaTests
     {
         [Test]
-        public void IdPersonaValido_ValidarId_RetornaTrue()
+        public void IdPersonaValido_ValidarId_RetornaFalse()
         {
             var persona = new Persona();
             //persona.Id = "234";
@@ -23,13 +23,21 @@ namespace SVS.TDD.UnitTests
             Assert.IsFalse(validacionId);
         }
         [Test]
-        public void IdPersonaValido_ValidarId_Retornaflase()
+        public void IdPersonaValido_ValidarId_RetornaTrue()
         {
             var persona = new Persona();
             persona.Id = "23";
             var validacionId = ManagerPersona.ValidarId(persona.Id);
 
             Assert.IsTrue(validacionId);
+        }
+        [Test]
+        public void caso1()
+        {
+            var persona = new Persona();
+            var validarCaso1 = ManagerPersona.ValidarDni(persona.dni);
+            Assert.IsFalse(validarCaso1);
+
         }
     }
 }
