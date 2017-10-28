@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Datos", "03 - Datos", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVS.TDD.Negocio", "SVS.TDD.Negocio\SVS.TDD.Negocio.csproj", "{7A438D54-1CD6-4A10-BBAB-EF0B9D418213}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVS.CI.Data", "..\SVS.IntegracionContinua\SVS.CI.Data\SVS.CI.Data.csproj", "{24032DCD-43C2-438B-83F8-6D74E27D0D52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{7A438D54-1CD6-4A10-BBAB-EF0B9D418213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A438D54-1CD6-4A10-BBAB-EF0B9D418213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A438D54-1CD6-4A10-BBAB-EF0B9D418213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24032DCD-43C2-438B-83F8-6D74E27D0D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24032DCD-43C2-438B-83F8-6D74E27D0D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24032DCD-43C2-438B-83F8-6D74E27D0D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24032DCD-43C2-438B-83F8-6D74E27D0D52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +42,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D230555F-A7F0-4EAE-A9E9-E0BE34989905} = {40115CDE-03DF-4DCE-BB82-69942DB9B8A2}
 		{7A438D54-1CD6-4A10-BBAB-EF0B9D418213} = {4CC867FA-B61C-4FFB-87A8-FA2385C52164}
+		{24032DCD-43C2-438B-83F8-6D74E27D0D52} = {A95F4185-A3A4-4D84-B2A2-E5CFA25CBA0D}
 	EndGlobalSection
 EndGlobal
