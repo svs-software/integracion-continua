@@ -16,7 +16,6 @@ namespace SVS.TDD.UnitTests
         public void IdPersonaValido_ValidarId_RetornaTrue()
         {
             var persona = new Persona();
-            persona.Id = "001";
             
             var validacionId = ManagerPersona.ValidarId(persona.Id);
 
