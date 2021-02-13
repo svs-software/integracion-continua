@@ -11,7 +11,7 @@ namespace SVS.TDD.UnitTests
         {
             var resultado = Database.TestConnection(null);
 
-            Assert.IsTrue(resultado);
+            Assert.IsFalse(resultado);
         }
     }
 }
